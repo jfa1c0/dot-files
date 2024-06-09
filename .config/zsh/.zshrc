@@ -31,7 +31,7 @@ source $XDG_CONFIG_HOME/zsh/completion.zsh
 
 # prompt
 fpath=($XDG_CONFIG_HOME/zsh/prompt $fpath)
-source $XDG_CONFIG_HOME/zsh/pprompt/prompt_purification_setup
+source $XDG_CONFIG_HOME/zsh/prompt/prompt_purification_setup
 
 # vim mode
 bindkey -v
