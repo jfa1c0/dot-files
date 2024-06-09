@@ -1,4 +1,4 @@
-!#/usr/bin/env zsh
+#!/usr/bin/env zsh
 
 # navigation
 setopt AUTO_CD
@@ -23,13 +23,13 @@ setopt HIST_SAVE_NO_DUPS
 setopt HIST_VERIFY
 
 # aliases
-source $DOTFILES/aliases/aliases
+source $XDG_CONFIG_HOME/aliases/aliases
 
 # completion
 _comp_options+=(globdots)
-source $DOTFILES/zsh/completion.zsh
+source $XDG_CONFIG_HOME/zsh/completion.zsh
 
 # prompt
-fpath=($DOTFILES/zsh/purification $fpath)
-source $DOTFILES/zsh/purification/prompt_purification_setup
+fpath=($XDG_CONFIG_HOME/zsh/prompt $fpath)
+source $XDG_CONFIG_HOME/zsh/pprompt/prompt_purification_setup
 
