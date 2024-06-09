@@ -33,3 +33,9 @@ source $XDG_CONFIG_HOME/zsh/completion.zsh
 fpath=($XDG_CONFIG_HOME/zsh/prompt $fpath)
 source $XDG_CONFIG_HOME/zsh/pprompt/prompt_purification_setup
 
+# vim mode
+bindkey -v
+export KEYTIMEOUT=1
+
+# fzf
+source <(fzf --zsh)
