@@ -26,5 +26,10 @@ setopt HIST_VERIFY
 source $DOTFILES/aliases/aliases
 
 # completion
+_comp_options+=(globdots)
 source $DOTFILES/zsh/completion.zsh
+
+# prompt
+fpath=($DOTFILES/zsh/purification $fpath)
+source $DOTFILES/zsh/purification/prompt_purification_setup
 
