@@ -7,6 +7,8 @@ local config = wezterm.config_builder()
 -- theme
 config.color_scheme = 'Hardcore'
 
+-- fond
+config.font = wezterm.font 'Hack Nerd Font'
 
 
 

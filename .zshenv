@@ -23,3 +23,4 @@ export SAVEHIST=10000
 
 # path
 export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
